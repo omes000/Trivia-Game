@@ -1,0 +1,80 @@
+ html{
+    background-image: url("../images/power.jpg");
+    background-repeat:no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center center;
+    background-attachment: fixed;
+}
+
+body{
+    background-color: transparent;
+    padding:20px;
+}
+
+.page-header h1{
+    font-family: 'Wendy One', sans-serif;
+    font-size: 9em;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.content{
+    background-color: white;
+    border-radius: 10px;
+    min-height: 500px;
+    padding:20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.transparentBody {
+    /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.box{
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 30px;
+    background-color: grey;
+    color:white;
+    border: 1px black solid;
+    font-size: 30px;
+    margin: 5px;
+    text-shadow: none;
+}
+
+#timer, #question, #answers{
+    font-size: 20px;
+    padding:5px;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-primary {
+    background-color: #E84F3D;
+    color: #ffffff;
+}
+ 
+.btn-primary:hover, .btn-primary:focus{
+    background-color: #FF998F;
+    border-color: white;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background-color: #A11607 !important;
+    box-shadow: none;
+    border-color: white !important;
+}
